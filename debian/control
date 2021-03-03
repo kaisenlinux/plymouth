@@ -1,8 +1,8 @@
 Source: plymouth
 Section: misc
 Priority: optional
-Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
 XSBC-Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 Build-Depends: debhelper-compat (= 12),
                docbook-xsl,
                libdrm-dev,
@@ -13,7 +13,7 @@ Build-Depends: debhelper-compat (= 12),
                pkg-config,
                systemd,
                xsltproc
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Rules-Requires-Root: no
 Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
 Vcs-Git: https://gitlab.com/kaisenlinux/packages/plymouth.git
@@ -110,7 +110,7 @@ Architecture: linux-any
 Depends: fontconfig,
          fontconfig-config,
          fonts-cantarell,
-         fonts-dejavu-core | ttf-dejavu-core,
+         fonts-dejavu-core,
          plymouth (= ${binary:Version}),
          plymouth-label (= ${binary:Version}),
          ${misc:Depends},

@@ -1,3 +1,21 @@
+plymouth (0.9.5-3+kaisen1) kaisen-packages; urgency=medium
+
+  * Import new upstream release
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 03 Mar 2021 02:50:39 +0200
+
+plymouth (0.9.5-3) unstable; urgency=medium
+
+  [ Laurent Bigonville ]
+  * debian/control: Remove dependency the ttf-dejavu-core alternative
+  * Don't use /etc/vconsole.conf after all as it's not used anywhere in debian
+  * d/p/0003-default-theme.patch: Switch to homeworld for bullseye
+
+  [ Simon McVittie ]
+  * Unfuzz 0008-show-delay.patch to apply cleanly
+
+ -- Laurent Bigonville <bigon@debian.org>  Tue, 02 Mar 2021 13:18:12 +0100
+
 plymouth (0.9.5-2+kaisen1) kaisen-packages; urgency=medium
 
   * Changes src/plymouthd.conf and plymouthd.defaults for Kaisen Linux
