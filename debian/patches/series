@@ -1,4 +1,4 @@
 0005-cmdline.patch
 drop-systemd-vconsole-setup-service.patch
 fallback-etc-default-keyboard.patch
-0003-default-theme.patch
+000-update-default-theme
